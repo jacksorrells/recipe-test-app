@@ -1,5 +1,5 @@
 {
-  "name": "react",
+  "name": "recipe-test-app",
   "version": "0.0.0",
   "private": true,
   "dependencies": {
@@ -16,5 +16,32 @@
   },
   "devDependencies": {
     "react-scripts": "latest"
+  },
+  "description": "[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-41hytz)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacksorrells/recipe-test-app.git"
+  },
+  "keywords": [
+    "recipe"
+  ],
+  "author": "Jack Sorrells",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacksorrells/recipe-test-app/issues"
+  },
+  "homepage": "https://github.com/jacksorrells/recipe-test-app#readme",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

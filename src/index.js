@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import { render } from 'react-dom';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
@@ -8,10 +8,6 @@ import ListContainer from './components/ListContainer';
 import './style.css';
 
 class App extends Component {
-  constructor() {
-    super();
-  }
-
   render() {
     return (
       <Router>
