@@ -27,11 +27,11 @@ export const recipeData = [
 	    "1 Tbsp sesame seeds",
       "1 Tbsp sriracha"
     ],
-    instructions:{
-      1: "Prepare the stir fry sauce first. In a small bowl stir together the soy sauce, toasted sesame oil, sriracha, and brown sugar. Set the sauce aside.",
-	    2: "Shred the vegetables so they are ready to go when you need them. Cut one small cabbage in half, remove the core, and then finely shred the leaves of one half the cabbage (4-6 cups once shredded, save the other half for another recipe). Peel two carrots, then use a cheese grater to shred them (1 cup shredded). Slice three green onions. Mince two cloves of garlic. Peel a knob of ginger using either a vegetable peeler or by scraping with the side of a spoon, then grate it using a small-holed cheese grater.",
-	    3: "Heat a large skillet over medium heat. Once hot add the cooking oil, ground beef, garlic, ginger, and a pinch of salt and pepper. Cook the beef until browned (about five minutes).",
-      4: "Add the cabbage and carrots to the skillet and continue to stir and cook until the cabbage is slightly wilted (or fully wilted, if you prefer). Stir in the prepared sauce and the green onions. Top with a sprinkle of sesame seeds and a drizzle of sriracha, then serve."
-    }
+    instructions:[
+      "Prepare the stir fry sauce first. In a small bowl stir together the soy sauce, toasted sesame oil, sriracha, and brown sugar. Set the sauce aside.",
+	    "Shred the vegetables so they are ready to go when you need them. Cut one small cabbage in half, remove the core, and then finely shred the leaves of one half the cabbage (4-6 cups once shredded, save the other half for another recipe). Peel two carrots, then use a cheese grater to shred them (1 cup shredded). Slice three green onions. Mince two cloves of garlic. Peel a knob of ginger using either a vegetable peeler or by scraping with the side of a spoon, then grate it using a small-holed cheese grater.",
+	    "Heat a large skillet over medium heat. Once hot add the cooking oil, ground beef, garlic, ginger, and a pinch of salt and pepper. Cook the beef until browned (about five minutes).",
+      "Add the cabbage and carrots to the skillet and continue to stir and cook until the cabbage is slightly wilted (or fully wilted, if you prefer). Stir in the prepared sauce and the green onions. Top with a sprinkle of sesame seeds and a drizzle of sriracha, then serve."
+    ]
   }
 ];
