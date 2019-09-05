@@ -1,25 +1,21 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import Hello from './Hello';
 import Navbar from './components/Navbar';
+import CardContainer from './components/CardContainer';
+import ListContainer from './components/ListContainer';
 import './style.css';
 
 class App extends Component {
   constructor() {
     super();
-    this.state = {
-      name: 'React'
-    };
   }
 
   render() {
     return (
       <div>
         <Navbar />
-        <Hello name={this.state.name} />
-        <p>
-          Start editing to see some magic happen :)
-        </p>
+        <CardContainer />
+        <ListContainer />
       </div>
     );
   }
