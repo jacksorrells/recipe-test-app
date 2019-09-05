@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Menu, Icon } from 'antd';
 
 import { navData } from '../data/navData';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 const { SubMenu } = Menu;
 
@@ -19,7 +20,9 @@ function Navbar() {
       {navData.map(navItem => {
           return (
             <Menu.Item key={navItem.name}>
-              <Icon type={navItem.icon} /> {navItem.displayName}
+              <Link to={navItem.href}>
+                <Icon type={navItem.icon} /> {navItem.displayName}
+              </Link>
             </Menu.Item>
           );
         })}
