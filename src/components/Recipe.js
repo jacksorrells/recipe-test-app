@@ -1,5 +1,5 @@
 import React from 'react';
-import { Typography, Divider, Card } from 'antd';
+import { Typography, Divider, Card, Row, Col } from 'antd';
 import { recipeData } from '../data/recipeData';
 
 const { Title, Paragraph, Text } = Typography;
@@ -11,9 +11,18 @@ function Recipe() {
   return (
     <Card>
       <Typography>
-        <Title>{recipeData[0].name}</Title>
+        <Title level={1}>{recipeData[0].name}</Title>
+
         <Paragraph>
           {recipeData[0].description}
+        </Paragraph>
+
+        <Row>
+          <Col span="12">
+
+        
+        <Paragraph>
+          <Text strong>Link: </Text> {recipeData[0].link}
         </Paragraph>
         <Paragraph>
           <Text strong>Course: </Text> {recipeData[0].course}
@@ -24,6 +33,11 @@ function Recipe() {
         <Paragraph>
           <Text strong>Servings: </Text> {recipeData[0].servings}
         </Paragraph>
+
+          </Col>
+
+          <Col span={12}>
+
         <Paragraph>
           <Text strong>Prep Time: </Text> {recipeData[0].prepTime}
         </Paragraph>
@@ -33,9 +47,9 @@ function Recipe() {
         <Paragraph>
           <Text strong>Total Time: </Text> {recipeData[0].totalTime}
         </Paragraph>
-        <Paragraph>
-          <Text strong>Link: </Text> {recipeData[0].link}
-        </Paragraph>
+        
+          </Col>
+        </Row>
 
         <Divider />
 

@@ -33,5 +33,54 @@ export const recipeData = [
 	    "Heat a large skillet over medium heat. Once hot add the cooking oil, ground beef, garlic, ginger, and a pinch of salt and pepper. Cook the beef until browned (about five minutes).",
       "Add the cabbage and carrots to the skillet and continue to stir and cook until the cabbage is slightly wilted (or fully wilted, if you prefer). Stir in the prepared sauce and the green onions. Top with a sprinkle of sesame seeds and a drizzle of sriracha, then serve."
     ]
+  }, {
+    id: 2,
+    name: "Hamburger Steak with Onions and Gravy",
+    description: "An easy-to-make classic featuring tasty hamburger 'steaks' smothered in gravy and onions. Traditionally served with hot white rice or potatoes, it's a great way to dress up a pound of ground beef and you probably have all the ingredients on hand!",
+    course: "Main",
+    cuisine: "American/Southern",
+    servings: 4,
+    prepTime: "15 Minutes",
+    cookTime: "25 Minutes",
+    totalTime: "40 Minutes",
+    link: "",
+    ingredients: [
+      "1 pound ground beef",
+      "1 egg",
+      "1/4 cup bread crumbs",
+      "1/8 teaspoon ground black pepper",
+      "1/2 teaspoon seasoned salt",
+      "1/2 teaspoon onion powder",
+      "1/2 teaspoon garlic powder",
+      "1 teaspoon Worcestershire sauce",
+      "1 cup thinly sliced onion",
+      "1 tablespoon vegetable oil",
+      "2 tablespoons all - purpose flour",
+      "1 cup beef broth",
+      "1 tablespoon cooking sherry",
+      "1/2 teaspoon seasoned salt"
+    ],
+    instructions: [
+      "In a large bowl, mix together the ground beef, egg, bread crumbs, pepper, salt, onion powder, garlic powder, and Worcestershire sauce. Form into 8 balls, and flatten into patties.",
+	    "Heat the oil in a large skillet over medium heat.Fry the patties and onion in the oil until patties are nicely browned, about 4 minutes per side.Remove the beef patties to a plate, and keep warm.",
+	    "Sprinkle flour over the onions and drippings in the skillet.Stir in flour with a fork, scraping bits of beef off of the bottom as you stir.Gradually mix in the beef broth and sherry.Season with seasoned salt.Simmer and stir over medium- low heat for about 5 minutes, until the gravy thickens.Turn heat to low, return patties to the gravy, cover, and simmer for another 15 minutes.",
+    ]
+  }, {
+    id: 3,
+    name: "",
+    description: "",
+    course: "",
+    cuisine: "",
+    servings: 4,
+    prepTime: " Minutes",
+    cookTime: " Minutes",
+    totalTime: " Minutes",
+    link: "",
+    ingredients: [
+      "",
+    ],
+    instructions: [
+      ""
+    ]
   }
 ];
